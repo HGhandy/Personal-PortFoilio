@@ -1,0 +1,42 @@
+/*My CSS Variables*/
+:root {
+    --mainColor: #aeaeae;
+    --secondaryColor: #fff;
+    --BorderColor: #c1c1c1;
+    --mainTxt: #000;
+    --SecondaryTxt: #4b5156;
+    --ThemeDotBorder: #24292e;
+    --PreviewBg: rgb(251, 249, 243, 0.8);
+    --PreviewShadow: #f0ead6;
+
+
+
+}
+
+
+/*Media Quries Screen Size 1200Px*/
+@media screen and (max-width:1200px) {
+    .main-container {
+        width: 95%;
+    }
+}
+
+
+
+
+/*Media Quries Screen Size 1200Px*/
+@media screen and (max-width:800px) {
+    .intro-wrapper {
+
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            'nav-wrapper'
+            'left-column'
+            'right-column'
+        ;
+    }
+
+    .right-column {
+        justify-content: center;
+    }
+}

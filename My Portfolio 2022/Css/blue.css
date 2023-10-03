@@ -1,0 +1,15 @@
+/*My CSS Variables*/
+:root {
+    --mainColor: #15202b;
+    --secondaryColor: #192734;
+    --BorderColor: #164d56;
+    --mainTxt: #fff;
+    --SecondaryTxt: #eee;
+    --ThemeDotBorder: #fff;
+    --PreviewBg: rgb(25, 39, 52, 0.8);
+    --PreviewShadow: #111921;
+
+
+
+}
+
